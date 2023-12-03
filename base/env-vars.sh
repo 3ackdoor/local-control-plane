@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Self Info
-export SELF_INFO_EMAIL="anewnursery@gmail.com"
-export SELF_INFO_NAME="Anew Eiamsuwansai"
+export SELF_INFO_EMAIL="your_git@email.com"
+export SELF_INFO_NAME="Your Name"
 
 # Crossplane
 export CROSSPLANE_NS="crossplane-system"
