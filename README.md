@@ -40,7 +40,7 @@ Ref: <https://learnk8s.io/how-many-clusters>
 - Create a ssh-key secret using ***Google Cloud console UI*** using the previous step as value (paste on `Secret value` field) with a secret key name `SSH_PRIVATE_KEY_LOCAL_CONTROL_PLANE`
 - Create a gcp-creds secret using ***Google Cloud console UI*** with a secret key name `GCP_CREDS_LOCAL_CONTROL_PLANE` and `creds.json` that you just downloaded on your local machine from `./local/download-service-account.sh` script
 - Run `gcloud secrets versions access 1 --secret="SSH_PRIVATE_KEY_LOCAL_CONTROL_PLANE" --project=gitops-learning01 | ssh-add - >/dev/null` to add ssh-key from Secret Manager
-- Run `git clone git@bitbucket.org:gitops-learning/local-control-plane.git` to clone the repo
+- Run `git clone git@github.com:3ackdoor/local-control-plane.git` to clone the repo
 - Open `local-control-plane` project from left sidebar of CodeOSS
 
 ## Steps to repeat every startup of Workstation VM (script)
@@ -73,7 +73,7 @@ Ref: <https://learnk8s.io/how-many-clusters>
 ### Next Step
 
 - Run `cd ~` to change current directory path
-- Run `git clone git@bitbucket.org:gitops-learning/infra-services-apps.git` to clone infra-services-apps and follow the instruction in README.md file
+- Run `git clone git@github.com:3ackdoor/infra-services-apps.git` to clone infra-services-apps and follow the instruction in README.md file
 
 ## Delete Only GKE Cluster
 
