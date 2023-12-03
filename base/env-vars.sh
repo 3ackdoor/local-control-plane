@@ -15,7 +15,7 @@ export GCP_PROJECT_DES_NAME=GitOps-learning01
 export GCP_PROJECT=gitops-learning01
 export GCP_SERVICE_ACCOUNT_NAME=root-ca
 export GCP_SERVICE_ACCOUNT_FULL_NAME=$GCP_SERVICE_ACCOUNT_NAME@gitops-learning01.iam.gserviceaccount.com
-export GCP_SERVICE_ACCOUNT_KEYFILE=/Users/3ackdoor/Desktop/Code/side-project/gitops-learning/local-control-plane/gcloud/creds.json
+export GCP_SERVICE_ACCOUNT_KEYFILE=your_absolute_path_to_repository_folder/local-control-plane/gcloud/creds.json
 export GCP_REGION=asia-southeast1
 export GCP_ZONE=asia-southeast1-b
 
