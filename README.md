@@ -36,7 +36,7 @@ Ref: <https://learnk8s.io/how-many-clusters>
 - Execute `sudo apt update && sudo apt install openssh-client` command to install ssh client
 - Execute `eval $(ssh-agent)` command to start ssh-agent
 - Copy the ssh private key from the existing ssh-key which is binding on Bitbucket/GitLab/Github...
-  - Execute this command on your local machine `cat id_ed25519_bitbucket_anewnursery@gmail.com | pbcopy`
+  - Execute this command on your local machine `cat id_ed25519 | pbcopy`
 - Create a ssh-key secret using ***Google Cloud console UI*** using the previous step as value (paste on `Secret value` field) with a secret key name `SSH_PRIVATE_KEY_LOCAL_CONTROL_PLANE`
 - Create a gcp-creds secret using ***Google Cloud console UI*** with a secret key name `GCP_CREDS_LOCAL_CONTROL_PLANE` and `creds.json` that you just downloaded on your local machine from `./local/download-service-account.sh` script
 - Run `gcloud secrets versions access 1 --secret="SSH_PRIVATE_KEY_LOCAL_CONTROL_PLANE" --project=gitops-learning01 | ssh-add - >/dev/null` to add ssh-key from Secret Manager
@@ -54,8 +54,8 @@ Ref: <https://learnk8s.io/how-many-clusters>
 - Run `eval $(ssh-agent)`
 - Run `gcloud secrets versions access 1 --secret="SSH_PRIVATE_KEY_LOCAL_CONTROL_PLANE" --project=gitops-learning01 | ssh-add - >/dev/null`
 - Run `gcloud secrets versions access 1 --secret="GCP_CREDS_LOCAL_CONTROL_PLANE" --project=gitops-learning01 --out-file=/home/user/.config/gcloud/root-ca.json >/dev/null`
-- Run `git config --global user.email "anewnursery@gmail.com"`
-- Run `git config --global user.name "Anew Eiamsuwansai"`
+- Run `git config --global user.email "your_git@email.com"`
+- Run `git config --global user.name "Your Name"`
 - Run `minikube start`
 - Run `./workstation/pull-gke-kubeconfig.sh` or run the following commands manually
   - Run `gcloud auth activate-service-account root-ca@gitops-learning01.iam.gserviceaccount.com --key-file=/home/user/.config/gcloud/root-ca.json`
