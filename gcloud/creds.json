@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "gitops-learning01",
+  "private_key_id": "7599ef5cf447de4db2f7341f016b79e8717c5e7e",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDTY5ynEZsyxMEK\nRbGWr7A7sc1PEdlt9j2/Qem4xW5xUuKEKVK29uaMi8NtkzNLGaP0f7rZa738NQgW\ndyNU/wQ6BSy7+jzMIzaaQF0MnSfkUp1ZArrbid6EjQxK6NerKmdrQejpDd0srBVt\nuYeYmiuvve1CbtC6Vj1YOcW+w8j57pw5erIXAJaNhEdMBJto+IVCUkYV5qOapnWe\n+BoSJyKnLkyUx69i/Ddb2+D2VWnNIqp3BhnZ/dRvvaAsEJHUR7b1UDiN3wfUg6cr\nEfvy3hjk28W/On0IbxGmtOktfcQWVz+3dKVZbHDD8KBQUiR6s5bjgg20rOAMFawP\njukaLrIDAgMBAAECggEAKZxHl1lvX+h8CU4bvYo62h1PSTu9vZgFopLSc4Uljtge\nb56EwjBKxKq0XurlY2iaLgRAnxDG1pEH1QhBo7cJOXSQUDZbZmGeG3IE/vkmg5rB\nj2ZqqtFyRExReaNo5LAVqHbSZqHMgkEjfLRTHTZn2BG+VN/kZXGZZLcGll0KwCuc\nyK9Re7oSC8KIu+upgxzioUqua3pghG9XYGi76eqlmrYu143tam7pxUEbD839AEDD\nN5r+CBnx07jZyAePmp225cFdb5CKSGlC8r1ZgoFSZrsLPa2DybmUWcW5Sz4onVim\nwcvCLn1bpJ2HcOIUju7mau5C3ycfIXztfH/oVYZBSQKBgQD2OgCyw4OvK6AduDB9\n72Cu3+QeiWAEYyRkw/nz+5j4lCssJt0Nvx45mrtWsTsY35tayu7vOwDD+ef3gg9n\nTuAQP7FAhfzciv3gcEsN0dTJ254Zww1Wd8Yr20HCovzKbiDq+HnOeHS8hM88unZ3\nsGXT2dAUrERIpoB+36Immm/wiwKBgQDbx5z1oZ+TfpMPL4IhVEc0ppvXb0ylsJSN\n8DbEjQisC+6bUdn7k6XeKLxwks/JApuXswgkR2qlNYQb6+kF4p3dgoHN1WFnNSvl\nEkOi1UjU9B4rcyg1ym3HwOk7avPWE4tPzkybmWidapiArcAF8y8BnrEX+L3gSEgX\nnjYHHx87aQKBgQDkJNJI0QfO4yk04FluFsMKxcDk2nzxE7vA8iVDgDg4+3EVM91W\nw2MKFOjIZudPIMEd2zKQz6bh70iT+Rq0qkzKQXnHQ18MKm0Z7HJel7IGZ0uSqzxM\nhiZEtJ+17Lc2CdzOWvTh7pKbqqMqrcrfE78GEKfQv911Q3GEHUptYmOeCQKBgEZ9\ns54lBKWuB0Trm/VMrrn4ZiunCxJpnHwZ+7b29T0ZZqJyklPae2zR6/6/V93E9Fqn\nlYjtTwtGKuU5uTemA7Q0U6XNNrx/lWCXhxIHDqEe2z5cZR07nBJhkWz5VNPo2Nnz\n9SZDAgbbVaaQE/LUmNMQLwTdRylUhartl66ZEM9hAoGAROPhPxHKVXk40AljIIFQ\n+UIx6I32GNnFWVquBog2o04QG3DZ3YMCpguBz7PvCTdkr0iDhrJQqikTLo9Dy6TH\nV3UFz6BAZ4RdgCZig2B9PQt92QCcQZFNwC9W4tZSrEQbkIkfWtjReN0h8/rMVn21\nnk7Tbl1ZZHJnEgUxPNyRCaM=\n-----END PRIVATE KEY-----\n",
+  "client_email": "root-ca@gitops-learning01.iam.gserviceaccount.com",
+  "client_id": "103089364230577670167",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/root-ca%40gitops-learning01.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
